@@ -1,3 +1,225 @@
 # Neural-Network-Implementation-For-Simple-Logic-Gates
 
 This is an implementation of a 2 node neural network which can learn the in/output mappings of an OR logic gate, or an AND logic gate. Depending on how you set the training labels. Set training_data  = [[0, 0], 0],  [[0, 1], 1], [[1, 0], 1], [[1, 1], 1] to have it converge to the mappings of an OR gate. Set training_data = [[0, 0], 0],  [[0, 1], 0], [[1, 0], 0], [[1, 1], 1] for an AND gate.
+
+Partial Derivative with respect to 
+�
+0
+w 
+0
+​
+ :
+∂
+�
+∂
+�
+0
+=
+2
+(
+1.0
+−
+�
+1
+)
+⋅
+(
+−
+1
+)
+⋅
+sigmoid_derivative
+(
+�
+1
+)
+⋅
+�
+1
+⋅
+sigmoid_derivative
+(
+�
+0
+)
+⋅
+�
+∂w 
+0
+​
+ 
+∂g
+​
+ =2(1.0−y 
+1
+​
+ )⋅(−1)⋅sigmoid_derivative(z 
+1
+​
+ )⋅w 
+1
+​
+ ⋅sigmoid_derivative(z 
+0
+​
+ )⋅x
+
+Partial Derivative with respect to 
+�
+0
+b 
+0
+​
+ :
+∂
+�
+∂
+�
+0
+=
+2
+(
+1.0
+−
+�
+1
+)
+⋅
+(
+−
+1
+)
+⋅
+sigmoid_derivative
+(
+�
+1
+)
+⋅
+�
+1
+⋅
+sigmoid_derivative
+(
+�
+0
+)
+⋅
+1
+∂b 
+0
+​
+ 
+∂g
+​
+ =2(1.0−y 
+1
+​
+ )⋅(−1)⋅sigmoid_derivative(z 
+1
+​
+ )⋅w 
+1
+​
+ ⋅sigmoid_derivative(z 
+0
+​
+ )⋅1
+
+Partial Derivative with respect to 
+�
+1
+w 
+1
+​
+ :
+∂
+�
+∂
+�
+1
+=
+2
+(
+1.0
+−
+�
+1
+)
+⋅
+(
+−
+1
+)
+⋅
+sigmoid_derivative
+(
+�
+1
+)
+⋅
+�
+0
+∂w 
+1
+​
+ 
+∂g
+​
+ =2(1.0−y 
+1
+​
+ )⋅(−1)⋅sigmoid_derivative(z 
+1
+​
+ )⋅y 
+0
+​
+ 
+
+Partial Derivative with respect to 
+�
+1
+b 
+1
+​
+ :
+∂
+�
+∂
+�
+1
+=
+2
+(
+1.0
+−
+�
+1
+)
+⋅
+(
+−
+1
+)
+⋅
+sigmoid_derivative
+(
+�
+1
+)
+⋅
+1
+∂b 
+1
+​
+ 
+∂g
+​
+ =2(1.0−y 
+1
+​
+ )⋅(−1)⋅sigmoid_derivative(z 
+1
+​
+ )⋅1
