@@ -1,4 +1,4 @@
-# A "simple" 2 node neural net that solves for the correct in/output mappings for OR gates or AND gates
+# A 3 layer neural net that solves for the correct in/output mappings for OR gates or AND gates
 
 import math
 alpha = .01
