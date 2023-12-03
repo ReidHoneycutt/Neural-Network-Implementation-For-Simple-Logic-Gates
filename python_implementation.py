@@ -1,4 +1,5 @@
-# A 3 layer neural net that solves for the correct in/output mappings for OR gates or AND gates
+# A 3 layer, feed-forward neural network, with one hidden layer containing a single neuron
+# that solves for the correct in/output mappings for OR gates or AND gates
 
 import math
 alpha = .01
