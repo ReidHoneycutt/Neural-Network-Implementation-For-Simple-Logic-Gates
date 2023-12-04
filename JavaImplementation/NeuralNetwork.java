@@ -1,4 +1,3 @@
-
 public class NeuralNetwork {
 
     static final double alpha = 0.01;
