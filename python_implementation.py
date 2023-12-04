@@ -25,7 +25,6 @@ def sigmoid_derivative(x):
 
 
 def computing(training_data, param1, param2, epochs, alpha):
-    # 
     w00 = param1[0]
     w01 = param1[1]
     b0 = param1[2]
