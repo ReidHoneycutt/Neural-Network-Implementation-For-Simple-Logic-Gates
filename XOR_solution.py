@@ -1,4 +1,4 @@
-# This neural network is structured with two neurons in the hidden layer and one neuron in the output layer.
+# The neural network is structured with two neurons in the hidden layer and one neuron in the output layer.
 import math
 
 alpha = 0.1  # Learning rate
@@ -37,7 +37,7 @@ def main():
                 for j in range(2):
                     weights_hidden[i][j] += alpha * error * sigmoid_derivative(output) * weights_output[i] * sigmoid_derivative(hidden_layer_output[i]) * input_data[j]
                 bias_hidden[i] += alpha * error * sigmoid_derivative(output) * weights_output[i] * sigmoid_derivative(hidden_layer_output[i])
-            print("    " + str(input_data) + "    " + str(output) + "    " + str(target))
+            print("input: " + str(input_data) + "     " + "prediction: " + str(output) + "    " + "target: " + str(target))
 
 
 def sigmoid(x):
