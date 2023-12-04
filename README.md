@@ -6,6 +6,6 @@
 
   Here is what the output of the 2-hidden neuron NN looks like: 
 
-![Alt text](output_screenshot.png)
+![Alt text](XOR_NN_output.png)
 
   Included are implementations of this in python, and processing/Java, and an XOR solution in python(two neurons in the hidden layer)
