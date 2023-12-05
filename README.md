@@ -11,6 +11,8 @@ Contained in this repo are implementations of a 3-layer, feed-forward neural net
 ![Alt text](model_definitions.png)
 
 ![Alt text](partial_derivatives.png)
+
+
   Included are implementations of the 1-hidden-neuron NN in python, javascript and processing/Java, and a 2-hidden-neuron XOR solution in python(two neurons in the hidden layer).
 
   
