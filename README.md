@@ -10,49 +10,49 @@ Contained in this repo are implementations of a 3-layer, feed-forward neural net
 
 # Neural Network Partial Derivatives Computation
 
-This document explains the computation of partial derivatives of the loss function `L` in a simple neural network model.
+This document explains the computation of partial derivatives of the loss function L in a simple neural network model.
 
 ## Model Description
 
 In this neural network model, we define:
 
-- `L` as the loss function: \( L = (\text{label} - \text{pred})^2 \)
-- `pred` as the prediction: \( \text{pred} = \text{sigmoid}(z_1) \)
-- `z_1` as the output of the first neuron: \( z_1 = \text{sigmoid}(z_0) \cdot w_1 + b_1 \)
-- `z_0` as the input to the first neuron: \( z_0 = x \cdot w_{00} + y \cdot w_{01} + b_0 \)
+- L as the loss function: L = (label - pred)^2
+- pred as the prediction: pred = sigmoid(z1)
+- z1 as the output of the first neuron: z1 = sigmoid(z0) * w1 + b1
+- z0 as the input to the first neuron: z0 = x * w00 + y * w01 + b0
 
 Where:
-- `x`, `y` are inputs
-- `w_{00}`, `w_{01}`, `b_0`, `w_1`, `b_1` are parameters of the model
-- `sigmoid(z)` is the sigmoid activation function
+- x, y are inputs
+- w00, w01, b0, w1, b1 are parameters of the model
+- sigmoid(z) is the sigmoid activation function
 
 ## Partial Derivatives Computation
 
-The partial derivatives of the loss function `L` with respect to the parameters are computed as follows:
+The partial derivatives of the loss function L with respect to the parameters are computed as follows:
 
-### 1. Partial Derivative with respect to `w_{00}`
+### 1. Partial Derivative with respect to w00
 
-\[ \frac{\partial L}{\partial w_{00}} = 2 \cdot (\text{label} - \text{pred}) \cdot (-1) \cdot \text{sigmoid}'(z_1) \cdot w_1 \cdot \text{sigmoid}'(z_0) \cdot x \]
+- dL/dw00 = 2 * (label - pred) * (-1) * sigmoid_derivative(z1) * w1 * sigmoid_derivative(z0) * x
 
-### 2. Partial Derivative with respect to `w_{01}`
+### 2. Partial Derivative with respect to w01
 
-\[ \frac{\partial L}{\partial w_{01}} = 2 \cdot (\text{label} - \text{pred}) \cdot (-1) \cdot \text{sigmoid}'(z_1) \cdot w_1 \cdot \text{sigmoid}'(z_0) \cdot y \]
+- dL/dw01 = 2 * (label - pred) * (-1) * sigmoid_derivative(z1) * w1 * sigmoid_derivative(z0) * y
 
-### 3. Partial Derivative with respect to `b_0`
+### 3. Partial Derivative with respect to b0
 
-\[ \frac{\partial L}{\partial b_0} = 2 \cdot (\text{label} - \text{pred}) \cdot (-1) \cdot \text{sigmoid}'(z_1) \cdot w_1 \cdot \text{sigmoid}'(z_0) \]
+- dL/db0 = 2 * (label - pred) * (-1) * sigmoid_derivative(z1) * w1 * sigmoid_derivative(z0)
 
-### 4. Partial Derivative with respect to `w_1`
+### 4. Partial Derivative with respect to w1
 
-\[ \frac{\partial L}{\partial w_1} = 2 \cdot (\text{label} - \text{pred}) \cdot (-1) \cdot \text{sigmoid}'(z_1) \cdot \text{sigmoid}(z_0) \]
+- dL/dw1 = 2 * (label - pred) * (-1) * sigmoid_derivative(z1) * sigmoid(z0)
 
-### 5. Partial Derivative with respect to `b_1`
+### 5. Partial Derivative with respect to b1
 
-\[ \frac{\partial L}{\partial b_1} = 2 \cdot (\text{label} - \text{pred}) \cdot (-1) \cdot \text{sigmoid}'(z_1) \]
+- dL/db1 = 2 * (label - pred) * (-1) * sigmoid_derivative(z1)
 
 ## Conclusion
 
-These partial derivatives are crucial for the backpropagation algorithm in the neural network, which adjusts the parameters `w_{00}`, `w_{01}`, `b_0`, `w_1`, and `b_1` to minimize the loss function `L`.
+These partial derivatives are crucial for the backpropagation algorithm in the neural network, which adjusts the parameters w00, w01, b0, w1, and b1 to minimize the loss function L.
 
 
   Included are implementations of the 1-hidden-neuron NN in python, javascript and processing/Java, and a 2-hidden-neuron XOR solution in python(two neurons in the hidden layer).
