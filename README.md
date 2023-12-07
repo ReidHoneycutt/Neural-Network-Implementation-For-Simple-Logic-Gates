@@ -10,13 +10,7 @@ Contained in this repo are implementations of a 3-layer, feed-forward neural net
   <img width="472" alt="Screenshot 2023-12-06 at 8 17 29 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/8fc26c9a-6585-46cb-969b- 3413863259fb">
 </p>
 
-<img width="343" alt="Screenshot 2023-12-06 at 8 16 49 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/40489862-4a46-42e4-ba47-40e61ab4c817">
 
-![Alt text](XOR_NN_output.png)
-
-![Alt text](model_definitions.png)
-
-![Alt text](partial_derivatives.png)
 
 
   Included are implementations of the 1-hidden-neuron NN in python, javascript and processing/Java, and a 2-hidden-neuron XOR solution in python(two neurons in the hidden layer).
