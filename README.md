@@ -4,6 +4,8 @@ Contained in this repo is an implementation of a 3-layer, feed-forward neural ne
   
   For the single neuron NN, have it solve for an OR gate by setting the training_data  = [[0, 0], 0],  [[0, 1], 1], [[1, 0], 1], [[1, 1], 1]. To have it solve for an AND gate, set training_data = [[0, 0], 0],  [[0, 1], 0], [[1, 0], 0], [[1, 1], 1]. After a suffiecient number of epochs, the predictions will converge to 0 for the inputs where the output target is 0, and converge to 1 for the inputs where the output target is 1.
 
+  ![Alt text](model_definitions.png)
+
   Here is what the output of the 2-hidden neuron NN with training data for an XOR looks like after 100,000 epochs of learning, where each epoch consists of a prediction for each of the 4 possible inputs: 
   The partial derivatives of the loss function L are as follows:
 
@@ -15,7 +17,7 @@ Contained in this repo is an implementation of a 3-layer, feed-forward neural ne
 
 
 
-![Alt text](model_definitions.png)
+
 
 ![Alt text](partial_derivatives.png)
 
