@@ -1,4 +1,4 @@
-# Neural Network Implementation For Logic Gates
+# Neural Network Implementation For Learning Logic Gates
 
 Contained in this repo is an implementation of a 3-layer, feed-forward neural network (NN), with one hidden layer containing a single neuron, which can solve the input/output mappings of OR and AND logic gates. A NN with one neuron in the hidden layer can learn the in/output mappings of an OR gate, or an AND gate, but cannot solve the XOR because it is not linearly seperable, and thus requires 2 neurons in the hidden layer to approximate the correct hyperplane(see my repo on an NN with 2 neurons to see a NN that can solve XOR gates.
   
