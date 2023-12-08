@@ -1,6 +1,7 @@
 # Neural Network Implementation For Learning Logic Gates
 
-- A neural network(NN) with one hidden layer containing one neuron is capable of learning the in/output mappings of an OR gate, or an AND gate, but is not capable of learning an XOR because it is not linearly seperable. - Contained in this repo is an implementation of a feed-forward neural network (NN) with one hidden layer.
+- A neural network(NN) with one hidden layer containing one neuron is capable of learning the in/output mappings of an OR gate, AND gate, NAND gatebut is not capable of learning an XOR because it is not linearly seperable.
+- Contained in this repo is an implementation of a feed-forward neural network (NN) with one hidden layer.
 - containing a single neuron, and  which can solve the input/output mappings of OR and AND logic gates. A neural network(NN) with one hidden layer containing one neuron is capable of learning the in/output mappings of an OR gate, or an AND gate, but is not capable of learning an XOR because it is not linearly seperable. To learn requires 2 neurons in the hidden layer to approximate the correct hyperplane(see my repo on an NN with 2 neurons to see a NN that can solve XOR gates.
   
  - For the single neuron NN, have it solve for an OR gate by setting the training_data  = [[0, 0], 0],  [[0, 1], 1], [[1, 0], 1], [[1, 1], 1]. To have it solve for an AND gate, set training_data = [[0, 0], 0],  [[0, 1], 0], [[1, 0], 0], [[1, 1], 1]. After a suffiecient number of epochs, the predictions will converge to 0 for the inputs where the output target is 0, and converge to 1 for the inputs where the output target is 1.
@@ -16,6 +17,7 @@
 <img width="343" alt="Screenshot 2023-12-06 at 8 16 49 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/6d964d67-676b-44b0-9372-03d2596e8a99">
 
 
+![Screenshot 2023-12-08 144136](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/36323b00-83cd-44fa-afaa-cc8090506609)
 
 ![Alt text](partial_derivatives.png)
 
