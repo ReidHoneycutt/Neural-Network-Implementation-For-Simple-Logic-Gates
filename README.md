@@ -1,6 +1,6 @@
 # Neural Network Implementation For Learning Logic Gates
 
-- A neural network(NN) with one hidden layer containing one neuron is capable of learning the in/output mappings of an OR gate, AND gate, NAND gate, or NOR gate, but is not capable of learning an XOR because it is not linearly seperable.
+- A neural network(NN) with one hidden layer containing one neuron is capable of learning the in/output mappings of an OR gate, AND gate, NAND gate, or NOR gate, but is not capable of learning an XOR gate it's solution space is not linearly seperable.
 - Contained in this repo is an implementation of a feed-forward neural network (NN) with one hidden layer. Note below in the truth table what is different about the logic gates that are learnable with 1 neuron in the hidden layer, and the gates that require two neurons in the hidden layer to get learned.
   
 ![Screenshot 2023-12-08 150546](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/ebd2790a-54df-45d1-a808-8559fd86217c)
