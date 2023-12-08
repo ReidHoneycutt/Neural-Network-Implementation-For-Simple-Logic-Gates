@@ -16,9 +16,7 @@
  
 <img width="343" alt="Screenshot 2023-12-06 at 8 16 49 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/6d964d67-676b-44b0-9372-03d2596e8a99">
 
-
-
-![Screenshot 2023-12-08 150258](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/b55cb827-e5b2-4e2f-b900-758f4b5b3285)
+![Screenshot 2023-12-08 150546](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/ebd2790a-54df-45d1-a808-8559fd86217c)
 
 ![Alt text](partial_derivatives.png)
 
