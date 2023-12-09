@@ -1,12 +1,12 @@
 # Neural Network Implementation For Learning Logic Gates
 
 - A neural network(NN) with one hidden layer containing one neuron is capable of learning the in/output mappings of an OR gate, AND gate, NAND gate, or NOR gate, but is not capable of learning an XOR gate it's solution space is not linearly seperable.
-- Contained in this repo is an implementation of a feed-forward neural network (NN) with one hidden layer. Note below in the truth table what is different about the logic gates that are learnable with 1 neuron in the hidden layer, and the gates that require two neurons in the hidden layer to get learned.
+- Contained in this repo are 2 neural network(NN) implemetations, one containing one hidden layer, capable of learning the in/output mappings of an OR, NOR, AND, and NAND (but not XOR or XNOR). Note below in the truth table what is different about the logic gates that are learnable with 1 neuron in the hidden layer, and the gates that require two neurons in the hidden layer to get learned.
   
 ![Screenshot 2023-12-08 150546](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/ebd2790a-54df-45d1-a808-8559fd86217c)
   
--A neural network(NN) with one hidden layer containing one neuron is capable of learning the in/output mappings of an OR, NOR, AND, and NAND but is not capable of learning an XOR or XNOR because their solution spaces are not linearly seperable. 
--To approximate the correct hyperplaneTo learn XOR or XNOR requires 2 neurons in the hidden layer. Note how in the truth table
+
+-To approximate the hyperplane necessary to learn XOR or XNOR requires 2 neurons in the hidden layer, because they have one more feature distinction than the primitive logic gates, and that is described in the diagram below
   
 - For the single neuron NN, have it solve for an OR gate by setting the training_data  = [[0, 0], 0],  [[0, 1], 1], [[1, 0], 1], [[1, 1], 1]. To have it solve for an AND gate, set training_data = [[0, 0], 0],  [[0, 1], 0], [[1, 0], 0], [[1, 1], 1].
 - After a suffiecient number of epochs, the predictions will converge to 0 for the inputs where the output target(correct answer) is 0, and converge to 1 for the inputs where the output target is 1.
