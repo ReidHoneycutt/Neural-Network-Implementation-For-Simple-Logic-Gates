@@ -8,8 +8,7 @@
 
 -To approximate the hyperplane necessary to learn XOR or XNOR requires 2 neurons in the hidden layer, because they have one more feature distinction than the primitive logic gates, and that is described in the diagram below
 
-![Logic_gate_diagram](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/3fd08a6b-c25b-4f77-9114-4a272e751c9a)
-
+![Screenshot 2023-12-08 163327](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/ee659c6b-78d6-44d1-bad3-4739918431e1)
 
 
 - For the single neuron NN, have it solve for an OR gate by setting the training_data  = [[0, 0], 0],  [[0, 1], 1], [[1, 0], 1], [[1, 1], 1]. To have it solve for an AND gate, set training_data = [[0, 0], 0],  [[0, 1], 0], [[1, 0], 0], [[1, 1], 1].
