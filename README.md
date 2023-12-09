@@ -12,7 +12,7 @@
 - Contained in this repo are 2 neural network(NN) implemetations, one containing one hidden layer, capable of learning the in/output mappings of an OR, NOR, AND, and NAND (but not XOR or XNOR). 
 - For the single-neuron NN, have it solve for an OR gate by setting the training_data  = [[0, 0], 0],  [[0, 1], 1], [[1, 0], 1], [[1, 1], 1]. To have it solve for an AND gate, set training_data = [[0, 0], 0],  [[0, 1], 0], [[1, 0], 0], [[1, 1], 1].
 - After a suffiecient number of epochs, the predictions will converge to 0 for the inputs where the output target(correct answer) is 0, and converge to 1 for the inputs where the output target is 1.
-- Below are definitions of the NN model's loss function, and layers
+- Below are definitions of the NN model's loss function, and prediction function, where the label is equal to either 0 or 1.
 
   ![Alt text](model_definitions.png)
 
