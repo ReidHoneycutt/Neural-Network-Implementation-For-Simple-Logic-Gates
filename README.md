@@ -5,7 +5,7 @@
   
 ![Screenshot 2023-12-08 150546](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/ebd2790a-54df-45d1-a808-8559fd86217c)
   
--To approximate the hyperplane necessary to learn XOR or XNOR requires 2 neurons in the hidden layer, because they have one more feature distinction than the primitive logic gates, and that is described in the diagram below:
+-To approximate the hyperplane necessary to learn XOR or XNOR requires 2 neurons in the hidden layer, because they need one more feature distinction than the primitive logic gates, and that is described in the diagram below:
 
 ![Screenshot 2023-12-08 163327](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/ee659c6b-78d6-44d1-bad3-4739918431e1)
 
