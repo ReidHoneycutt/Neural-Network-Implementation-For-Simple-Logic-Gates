@@ -20,14 +20,13 @@ Below are the partial derivatives involved in determining the weights and biases
 
 <img width="472" alt="Screenshot 2023-12-06 at 8 17 29 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/6dc539f8-9066-4f6a-9216-a4ad8dba1d4f">
 
-The partials with respect to weight and bias 1 are also identical except for their last terms.
+The partials with respect to weight 1 and bias 1 are also identical except for their last terms.
  
 <img width="343" alt="Screenshot 2023-12-06 at 8 16 49 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/6d964d67-676b-44b0-9372-03d2596e8a99">
+<!-- Links to the single nueron implemention -->
+Here are implementations of the 1-hidden-neuron NN in python, javascript and processing/Java, and a 2-hidden-neuron XOR solution in python(two neurons in the hidden layer).
 
-  Included are implementations of the 1-hidden-neuron NN in python, javascript and processing/Java, and a 2-hidden-neuron XOR solution in python(two neurons in the hidden layer).
-
-  
- Here is what the output of the 2-hidden neuron NN with training data for an XOR looks like after 100,000 epochs of learning, where each epoch consists of a prediction for each of the 4 possible inputs: 
-  The partial derivatives of the loss function L are as follows:
+Here is what the output of the 2-hidden neuron NN with training data for an XOR looks like after 100,000 epochs of learning, where each epoch consists of a prediction for each of the 4 possible inputs: 
+The partial derivatives of the loss function L are as follows:
   
 ![Screenshot 2023-12-04 112223](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/3743b458-488a-4038-b2e2-da4a8849f049)
