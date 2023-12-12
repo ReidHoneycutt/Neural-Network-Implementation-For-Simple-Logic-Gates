@@ -20,11 +20,11 @@
   
 <img width="876" alt="Screenshot 2023-12-08 at 6 00 33 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/db4457ff-394d-4ceb-bd3e-152a5c8d4a0b">
  
-Below are the partial derivatives involved in determining the weights and biases. Note that the partials with respect to weight 00, weight 01, and bias 0 and weight 1 are identical except for their last term (last term being 1 in the case of weight 1).
+- Below are the partial derivatives involved in determining the weights and biases. Note that the partials with respect to weight 00, weight 01, and bias 0 and weight 1 are identical except for their last term (last term being 1 in the case of weight 1).
 
 <img width="472" alt="Screenshot 2023-12-06 at 8 17 29 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/6dc539f8-9066-4f6a-9216-a4ad8dba1d4f">
 
-The partials with respect to weight 1 and bias 1 are also identical except for their last terms.
+- The partials with respect to weight 1 and bias 1 are also identical except for their last terms.
  
 <img width="343" alt="Screenshot 2023-12-06 at 8 16 49 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/6d964d67-676b-44b0-9372-03d2596e8a99">
 <!-- Links to the single nueron implemention -->
