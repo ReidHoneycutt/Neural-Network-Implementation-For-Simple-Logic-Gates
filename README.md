@@ -29,7 +29,7 @@ The partials with respect to weight 1 and bias 1 are also identical except for t
 <img width="343" alt="Screenshot 2023-12-06 at 8 16 49 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/6d964d67-676b-44b0-9372-03d2596e8a99">
 <!-- Links to the single nueron implemention -->
 
--Here is what the output of the 2-hidden neuron NN with training data for an XOR looks like after 100,000 epochs of learning, where each epoch consists of a prediction for each of the 4 possible inputs: 
+- Here is what the output of the 2-hidden neuron NN with training data for an XOR looks like after 100,000 epochs of learning, where each epoch consists of a prediction for each of the 4 possible inputs: 
 The partial derivatives of the loss function L are as follows:
   
 ![Screenshot 2023-12-04 112223](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/3743b458-488a-4038-b2e2-da4a8849f049)
