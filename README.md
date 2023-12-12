@@ -1,5 +1,7 @@
 # Neural Network Implementation For Learning Logic Gates
-
+- Here is an implementation of the 1-hidden-neuron NN in javascript:
+  
+  https://singleneuronnnjs.reidhoneycutt.repl.co/
 - A neural network(NN) with one hidden layer containing one neuron is capable of learning the in/output mappings of an OR gate, AND gate, NAND gate, or NOR gate, but is not capable of learning an XOR or XNOR gate because their solution spaces are not linearly seperable.
 - Note below in the truth table what is different about the logic gates that are learnable with 1 neuron in the hidden layer marked in green, and the gates that require two neurons in the hidden layer to get learned in red:
   
@@ -12,9 +14,6 @@
 - Contained in this repo are 2 neural network(NN) implemetations, one containing one hidden layer, capable of learning the in/output mappings of an OR, NOR, AND, and NAND (but not XOR or XNOR). 
 - For the single-neuron NN, have it solve for an OR gate by setting the training_data  = [[0, 0], 0],  [[0, 1], 1], [[1, 0], 1], [[1, 1], 1]. To have it solve for an AND gate, set training_data = [[0, 0], 0],  [[0, 1], 0], [[1, 0], 0], [[1, 1], 1].
 - After a suffiecient number of epochs, the predictions will converge to 0 for the inputs where the output target(correct answer) is 0, and converge to 1 for the inputs where the output target is 1.
-- Here is an implementations of the 1-hidden-neuron NN in javascript:
-  
-  https://singleneuronnnjs.reidhoneycutt.repl.co/
 
 - Below are definitions of the NN model's prediction function, and loss function, where the label is equal to either to 0 or 1.
   
