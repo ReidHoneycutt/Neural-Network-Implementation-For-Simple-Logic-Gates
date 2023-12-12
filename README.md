@@ -13,7 +13,9 @@
 - For the single-neuron NN, have it solve for an OR gate by setting the training_data  = [[0, 0], 0],  [[0, 1], 1], [[1, 0], 1], [[1, 1], 1]. To have it solve for an AND gate, set training_data = [[0, 0], 0],  [[0, 1], 0], [[1, 0], 0], [[1, 1], 1].
 - After a suffiecient number of epochs, the predictions will converge to 0 for the inputs where the output target(correct answer) is 0, and converge to 1 for the inputs where the output target is 1.
 - Here is an implementations of the 1-hidden-neuron NN in javascript:
+  
   https://singleneuronnnjs.reidhoneycutt.repl.co/
+
 - Below are definitions of the NN model's prediction function, and loss function, where the label is equal to either to 0 or 1.
   
 <img width="876" alt="Screenshot 2023-12-08 at 6 00 33 PM" src="https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/db4457ff-394d-4ceb-bd3e-152a5c8d4a0b">
