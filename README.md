@@ -33,7 +33,7 @@ The partial derivatives of the loss function L are as follows:
   
 ![Screenshot 2023-12-04 112223](https://github.com/ReidHoneycutt/Neural-Network-Implementation-For-Simple-Logic-Gates/assets/30945205/3743b458-488a-4038-b2e2-da4a8849f049)
 
-# Additional Facts About the Training Process of Neural Nets
+# Matrix-Vector Representation of the Training Process of Neural Nets
 The multiplications on the input values involved during the feed-foreward can be represented as a multiplication of a matrix of weights by an input vector. During the training of the model, the following will be true for the weight-matrix of each layer: 
 - the number of neurons in the CURRENT layer is equal to the number of ROWS in the weight-matrix.
 - the number of neurons in the PREVIOUS layer is equal to the number of COLUMNS in the weight-matrix
